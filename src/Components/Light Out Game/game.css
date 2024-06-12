@@ -1,0 +1,20 @@
+.Board tbody tr td {
+    width: 50px;
+    height: 50px;
+    background: whie;
+    background: #0c0d36;
+    cursor: pointer;
+}
+
+.lo_game_board {
+    display: flex;
+    justify-content: center;
+}
+.lo_game_board .Board {
+    background: black;
+}
+
+.Board tbody tr td:hover{
+    background: #27298b;
+    transition: 0.5s;
+}

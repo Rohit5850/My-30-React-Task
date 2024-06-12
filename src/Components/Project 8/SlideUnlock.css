@@ -1,0 +1,68 @@
+.screen {
+    width: 350px;
+    margin: 0 auto;
+    height: 450px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.screen h2 {
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 64px;
+}
+
+
+.screen img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.slider::-webkit-slider-thumb{
+appearance: none;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: #aaa;
+cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:active {
+    background: #fff;
+    opacity: 1;
+}
+
+.slide-btn {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lockSlider input:active{
+    opacity: 1 !important;
+}
+
+.lockSlider input{
+    border-radius: 65px;
+}
+
+.slide-btn svg path {
+    fill: #fff;
+    /* font-size: 41px; */
+    opacity: 0.3;
+}
+.slide-btn svg path:hover{
+    opacity: 1;
+}
+
+.slide-btn svg{
+    font-size: 24px;
+}
+
+.slide-btn svg {
+    font-size: 70px;
+}

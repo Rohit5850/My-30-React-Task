@@ -1,0 +1,72 @@
+.game_board {
+    max-width: 600px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 0;
+}
+
+.game_board {
+    position: relative;
+}
+
+.snack_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.snake-body{
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    background-color: red;
+    border: 0;
+}
+
+.snackFood{
+    width:15px;
+    height:15px;
+    background:green;
+}
+
+
+.Popup {
+    width: 30%;
+    background: rgb(0, 87, 128);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+
+.Popup {
+    display: none;
+}
+
+
+.Popup button {
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Popup button:hover{
+    background: rgb(218, 218, 218);
+}
+
+.Popup h3 {
+    color: white;
+    font-size: 22px;
+}

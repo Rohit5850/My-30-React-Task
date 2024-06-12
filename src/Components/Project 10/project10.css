@@ -1,0 +1,70 @@
+.searchIcon  {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.conatiner{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.logo_img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sideNav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoCont {
+    display: flex;
+    justify-content: center;
+}
+
+.sideNav svg {
+    margin-left: 18px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.serchIcon {
+    display: flex;
+    transition: 3s;
+    justify-content: center;
+}
+
+.serchIcon input {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid;
+    color: white;
+    padding: 10px 12px;
+    
+   
+    /* transition: 3s; */
+  
+}
+
+.serchIcon input::placeholder{
+    color: white;
+}
+
+.serchIcon input::-webkit-search-cancel-button {
+    color: white;
+ }
+
+
+ 

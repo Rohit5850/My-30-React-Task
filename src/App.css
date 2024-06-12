@@ -36,3 +36,91 @@
     transform: rotate(360deg);
   }
 }
+.cont_heading{
+  padding: 10px;
+  background-color: rgb(238, 136, 233);
+  color: white;
+}
+
+.calmnder\&sign {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  margin: 0 auto;
+  /* bottom: 21px; */
+}
+.sign input {
+  outline: 0;
+  bottom: 0;
+  border: 0;
+  border-bottom: dotted;
+  padding: 10px 5px;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.calend input {
+  padding: 10px 5px;
+  font-size: 18px;
+  /* border: 0; */
+}
+
+.doneBtn {
+  margin-top: 40px;
+}
+
+button.btn {
+  padding: 10px 40px;
+  border: 0;
+  background: #d38af5;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pickBtn {
+  margin-top: 40px;
+}
+
+.myCat img {
+  width: 100%;
+}
+
+.myCat {
+  width: 350px;
+  height: auto;
+}
+.myCat_box {
+  width: 350px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.img_top_txt p {
+  font-size: 24px;
+  line-height: 0;
+  font-weight: bold;
+  /* background: pink; */
+}
+.img_btm_txt {
+  border-top: 1px solid;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_btm_txt svg {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+p.like_count {
+  font-size: 24px;
+  padding: 0;
+  line-height: 0;
+}
+
+.heart svg path {
+  fill: green;
+}

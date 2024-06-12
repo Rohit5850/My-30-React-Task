@@ -1,0 +1,51 @@
+.cal_body {
+    width: 260px;
+    border: 1px solid;
+    min-height: 100px;
+    margin: 0 auto;
+}
+.cal_screen {
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.cal_screen input {
+    width: 100%;
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    background: whitesmoke;
+    color: black;
+    font-size: 18px;
+}
+
+.btn_cal button {
+    min-width: 50px;
+    height: 50px;
+    border: 0;
+    background: black;
+    color: white;
+}
+
+.btn_cal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.btn_cal button {
+    /* min-width: 50px; */
+    height: 50px;
+    border: 0;
+    background: black;
+    color: white;
+    width: 24%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+

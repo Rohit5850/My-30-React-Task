@@ -1,0 +1,48 @@
+.temp_contoller {
+    width: 250px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+    min-height: 150px;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0;
+}
+
+
+button.temp_btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 4px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.temp_show {
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    /* display: flex; */
+    /* top: 50%; */
+    /* left: 50%; */
+    position: relative;
+    background-color: #b05fdf;
+    color: white;
+    font-size: 22px;
+}
+
+
+.temp_show_head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
